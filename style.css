@@ -1,4 +1,5 @@
-*{margin:0px;}
+*{margin:0px;}*{margin:0px;}
+@media screen and (max-width: 1440px){
 #menu{
 	position: relative;
 	background:linear-gradient(to top, silver,white);
@@ -132,7 +133,7 @@ h1{
 	left: 5%;
 	right: 5%;
 	position: absolute;
-	top: 55%;
+	top: 54%;
 	font-size:11px;
 }
 
@@ -188,4 +189,152 @@ h1{
 .gmail{
 	position: absolute;
 	right: 1%;
+}
+}
+
+
+@media screen and (max-width: 992px)
+{
+#menu{
+	height:100px;
+}
+#men0{
+	top: 35%;
+	font-size:23px;
+}
+#men1{
+	width: 18%;
+}
+.knopka{
+	height: 35px;
+	margin: 7px;
+	width: 13%;
+}
+#logotip{	
+	width: 85px;
+	height: 50px;
+	right: 4%;
+}
+#zagol{ 
+	width: 30%;
+	left:  8%;
+	height: 24%; 
+}
+h1{
+	left: 10px;
+	font-size:30px;
+}
+
+.text{
+	font-size:23px;
+}
+#flag{
+	height: 160px;
+ }
+
+.flag{
+	height: 30%;
+}
+#red{
+	left: 43%;
+	width: 13%;
+	height: 65%;
+	top:21%;
+}
+.block{
+	width: 15%;
+	margin:  0px 12px;
+}
+.text0{
+	top: 45%;
+	font-size:13px;
+}
+
+.knopka2{
+	top: 77%;
+	font-size:23px;
+}
+#circle{
+	width: 22%;
+	height:38%;
+	left:  6%;
+}
+.text1{
+	font-size:18px;
+	top: 45%;
+	right: 25%;
+}
+#foot{
+	font-size:18px;
+	height: 83px;
+}
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+#menu{
+	height:125px;
+}
+#men0{
+	top: 37%;
+	font-size:27px;
+}
+#men1{
+	width: 15%;
+}
+.knopka{
+	height: 40px;
+	margin: 6px;
+	width: 15%;
+}
+#logotip{	
+	width: 100px;
+	height: 60px;
+	right: 2%;
+}
+#zagol{ 
+	width: 33%;
+	left:  7%;
+	height: 25%; 
+}
+h1{
+	font-size:32px;
+}
+.text{
+	font-size:25px;
+}
+#flag{
+	height: 150px;
+ }
+#red{
+	left: 44%;
+	width: 11%;
+	height: 63%;
+}
+.block{
+	width: 17%;
+	margin:  0px 10px;
+}
+.text0{
+	top: 42%;
+	font-size:15px;
+}
+.knopka2{
+	top: 75%;
+	font-size:23px;
+}
+#circle{
+	width: 25%;
+	height:43%;
+}
+.text1{
+	font-size:20px;
+	right: 22%;
+}
+#foot{
+	font-size:20px;
+	height: 90px;
+}
 }
